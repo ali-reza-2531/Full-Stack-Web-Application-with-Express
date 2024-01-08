@@ -2,7 +2,7 @@
 const { MongoClient } = require('mongodb');
 
 // Replace '<your-connection-string>' with your actual MongoDB Atlas connection string
-const uri = 'mongodb+srv://<username>:<password>@cluster0.wb80szk.mongodb.net/<database-name>?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://alrzashms:5y2tS0PsScNf1Vg6@firstcluster.rtfxxdm.mongodb.net/?retryWrites=true&w=majority';
 
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
